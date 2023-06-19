@@ -26,7 +26,7 @@ body{
   background-image: url(images/bg-bottom.svg), url(images/bg-top.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: 0% 100%, 100% 0%;
-  background-size: 18rem, 15rem;   
+  background-size: 18rem, 15rem;
 }
 
 h1 {
@@ -37,17 +37,17 @@ h1 {
 }
 
 h2 {
- font-size: 1em; 
+ font-size: 1em;
 }
 
 h3 {
   font-size: 3.9em;
-  padding: 1rem 3rem;   
+  padding: 1rem 3rem;
 }
 
 h4 {
   font-size: 3.9em;
-  padding: 1rem 3rem; 
+  padding: 1rem 3rem;
   display: none
 }
 
@@ -84,14 +84,12 @@ p {
   height: 34px;
 }
 
- 
+
 
 /* Hide the checkbox */
 .toggle input {
   display: none;
 }
-
- 
 
 /* Style for the slider */
 .slide {
@@ -105,7 +103,7 @@ p {
   transition: 0.4s;
 }
 
- 
+
 
 /* Style for the slider when the checkbox is checked */
 .slide:before {
@@ -120,14 +118,14 @@ p {
   transition: 0.4s;
 }
 
- 
+
 
 /* Style for the slider when the checkbox is checked */
 input:checked + .slide {
   background-color: white;
 }
 
- 
+
 
 /* Style for the slider when the checkbox is checked */
 input:checked + .slide:before {
@@ -213,13 +211,13 @@ button {
   color:white;
   background-color: hsl(237, 63%, 64%);
   border: none;
-  border-radius: 5px; 
+  border-radius: 5px;
   text-transform: uppercase;
 }
 
 .card-middle button {
   color: hsl(237, 63%, 64%);
-  background-color: white;  
+  background-color: white;
 }
 
 .card-middle button:hover{
@@ -237,7 +235,7 @@ button:hover{
 @media only screen and (max-width: 760px){
   #cards {
       flex-direction: column;
-      
+
   }
   .card-left , .card-middle , .card-right {
       margin: 1rem;
